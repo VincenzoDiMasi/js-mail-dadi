@@ -5,9 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dadi & Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css' integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==' crossorigin='anonymous'/>
     <script defer src="script.js"></script>
 </head>
 <body>
-    
+    <section id="dice-section" class="container">
+        <h1 class="m-4 text-center">Roll the dice!!!</h1>
+        <button type="button" id="roll-button" class="btn btn-primary">ROLL!!!</button>
+        <div class="row row-cols-2 mt-4">
+            <div class="col debug">
+                <h3 id="user-number"></h3>
+            </div>
+            <div class="col debug">
+                <h3 id="cpu-number"></h3>
+            </div>
+        </div>
+        <div class="row row-cols-1">
+            <div class="col">
+                <h1 id="winner"></h1>
+            </div>
+        </div>
+        
+
+    </section>
 </body>
 </html>
