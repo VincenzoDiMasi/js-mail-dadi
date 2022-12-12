@@ -14,10 +14,10 @@
         <h1 class="m-4 text-center">Roll the dice!!!</h1>
         <button type="button" id="roll-button" class="btn btn-primary">ROLL!!!</button>
         <div class="row row-cols-2 mt-4">
-            <div class="col debug">
+            <div class="col ">
                 <h3 id="user-number"></h3>
             </div>
-            <div class="col debug">
+            <div class="col ">
                 <h3 id="cpu-number"></h3>
             </div>
         </div>
@@ -26,8 +26,24 @@
                 <h1 id="winner"></h1>
             </div>
         </div>
-        
+    </section>
 
+<hr>
+
+    <section id="login-section" class="container mt-5">
+        <h1>LOGIN</h1>
+            <div class="row row-cols-1">
+                <div class="col d-flex flex-column mb-3">
+                    <label for="email">Inserisci E-mail</label>
+                    <input type="email" class="w-25" id="email">
+                </div>
+                <div class="col  mb-3">
+                    <button id="login" class="btn btn-primary">LogIn</button>
+                </div>
+                <div id="login-check-result" class="col text-center">
+
+                </div>
+            </div>
     </section>
 </body>
 </html>
