@@ -31,6 +31,8 @@ buttonElement.addEventListener('click', function(){
             cpuNumber = randomNumber;
         }
 
+    }     
+
         //Verifico chi abbia vinto
             
         let result = 'Hai perso!'
@@ -41,7 +43,7 @@ buttonElement.addEventListener('click', function(){
             result = 'Avete pareggiato!';
         }
 
-    }    
+       
 
         //Stampo in pagina
         userNumElement.innerText = 'Il tuo numero è: ' + userNumber;
