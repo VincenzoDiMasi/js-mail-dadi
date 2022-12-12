@@ -62,3 +62,14 @@ stampa un messaggio appropriato sull’esito del controllo.
 Prima di partire a scrivere codice poniamoci qualche domanda:
 Che ci sia un array da qualche parte?
 Cosa devo controllare esattamente?*/
+
+
+//Creo un Array con delle mail
+
+const emailList = ['robertdeniro@gmail.com', 'alpacino@gmail.com', 'leonardodicaprio@gmail.com', 'kevinspacey@libero.it'];
+
+//Prendo gli elementi dal DOM
+
+const emailElement = document.getElementById('email');
+const buttonElement = document.getElementById('login');
+const resultElement = document.getElementById('login-check-result');
