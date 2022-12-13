@@ -21,7 +21,7 @@ const resultElement = document.getElementById('login-check-result');
 //Creo un event listener 
 buttonElement.addEventListener('click', function(){
     //Prendo il value dell'input
-    const userEmail = emailElement.ariaValueMax;
+    const userEmail = emailElement.value;
 
     let isAllowed = false;
 
